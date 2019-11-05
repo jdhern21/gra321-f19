@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Charlie's Cafe</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"> -->
+    <!-- Our Custom CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Sidebar  -->
+    <nav class="collapse" id="collapseExample" style="background-color: aliceblue; position: absolute;">
+        <ul class="list-unstyled ">
+            <li>
+                <a href="#" data-toggle="modal" data-target="#myModal1"><img class="li-image" src="Icons-02.png"
+                        alt="Coffee" width="125" height="125"></a>
+            </li>
+            <li>
+                <a href="#" data-toggle="modal" data-target="#myModal2"><img class="li-image" src="Icons-03.png"
+                        alt="Tea Cup" width="125" height="125"></a>
+            </li>
+            <li>
+                <a href="#" data-toggle="modal" data-target="#myModal3"><img class="li-image" src="Icons-04.png"
+                        alt="Donut" width="125" height="125"></a>
+            </li>
+            <li>
+                <a href="#" data-toggle="modal" data-target="#myModal4"><img class="li-image" src="Icons-05.png"
+                        alt="Location" width="125" height="125"></a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <!--Grid column-->
+            <div class="col-md-12 text-center">
+                <img src="Icons-01.png" alt="Logo" width="400" height="400">
+            </div>
+            <div class="col-md-12 text-center">
+                <button id="sidebarCollapse" class="btn" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">More Info:</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Coffee Modal-->
+    <div class="modal fade" id="myModal1" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body text-center">
+                    <p><b>Coffee:</b></p>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            Drip Coffee <b>2</b>
+                        </div>
+                        <div class="col-sm-4">
+                            Espresso <b>2.5</b>
+                        </div>
+                        <div class="col-sm-4">
+                            Macchiato <b>2.5</b>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            Americano <b>2.5</b>
+                        </div>
+                        <div class="col-sm-4">
+                            Cappuccino <b>3.5</b>
+                        </div>
+                        <div class="col-sm-4">
+                            Caffe Latte <b>3.2</b>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            Caffe Mocha <b>4</b>
+                        </div>
+                        <div class="col-sm-4">
+                            Mocha Frappe <b>4</b>
+                        </div>
+                        <div class="col-sm-4">
+                            Thai Cappuccino <b>4</b>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            Hot Chocolate <b>3</b>
+                        </div>
+                        <div class="col-sm-4">
+                        </div>
+                        <div class="col-sm-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Coffee Modal End-->
+
+    <!--Tea Cup Modal-->
+    <div class="modal fade" id="myModal2" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body text-center">
+                    <p><b>Tea 2.5</b></p>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            Organic Tea
+                        </div>
+                        <div class="col-sm-4">
+                            Chamomile
+                        </div>
+                        <div class="col-sm-4">
+                            Jasmine Green
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            Golden Chai
+                        </div>
+                        <div class="col-sm-4">
+                            Mint (herbal)
+                        </div>
+                        <div class="col-sm-4">
+                            Mate Lemon
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            Breakfast Blend
+                        </div>
+                        <div class="col-sm-4">
+                            Silver & Spice
+                        </div>
+                        <div class="col-sm-4">
+                            Raspberry
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            Pomegranate
+                        </div>
+                        <div class="col-sm-4">
+                            Lemon Ginger
+                        </div>
+                        <div class="col-sm-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Tea Cup Modal End-->
+
+    <!--Donut Modal-->
+    <div class="modal fade" id="myModal3" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body text-center">
+                    <p><b>Food:</b></p>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            Croissant
+                        </div>
+                        <div class="col-sm-4">
+                            Chocolate croissant
+                        </div>
+                        <div class="col-sm-4">
+                            Strawberry croissant
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            Blueberry muffin
+                        </div>
+                        <div class="col-sm-4">
+                            Chocolate muffin
+                        </div>
+                        <div class="col-sm-4">
+                            Whole wheat bagel
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            Blueberry bagel
+                        </div>
+                        <div class="col-sm-4">
+                            Cinnamon raisin bagel
+                        </div>
+                        <div class="col-sm-4">
+                            Jalapeno asiago bagel
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            Ham and swiss croissant
+                        </div>
+                        <div class="col-sm-4">
+                            Chocolate chip cookie
+                        </div>
+                        <div class="col-sm-4">
+                            Brownie
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            Rice Krispy treat
+                        </div>
+                        <div class="col-sm-4">
+                            Lemon bar
+                        </div>
+                        <div class="col-sm-4">
+                            Granola bars
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            Gum
+                        </div>
+                        <div class="col-sm-4">
+                            Chips
+                        </div>
+                        <div class="col-sm-4">
+                            Bottled soda
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            Apple
+                        </div>
+                        <div class="col-sm-4">
+                            Banana
+                        </div>
+                        <div class="col-sm-4">
+                            Yogurt
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Donut Modal End-->
+
+    <!--Location Modal-->
+    <div class="modal fade" id="myModal4" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body text-center">
+                    <p><b>Location:</b></p>
+                    <p>900 Cady Mall</p>
+                    <p>Tempe, AZ </p>
+                    <p>85281</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Location Modal End-->
+
+    <!-- jQuery CDN  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

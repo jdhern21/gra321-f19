@@ -1,0 +1,30 @@
+
+h2 {
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+header {
+    font-family: futura-pt-bold,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background: white;
+    color: black;
+    margin: 10%;
+    padding: auto;
+    text-align: center;
+}
+.table {
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.td {
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20%;
+}
